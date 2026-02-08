@@ -52,6 +52,14 @@ const PROVIDERS: Provider[] = [
     models: [], // User types model name directly
   },
   {
+    displayName: 'DeepSeek',
+    providerId: 'deepseek',
+    models: [
+      { id: 'deepseek-chat', displayName: 'DeepSeek Chat' },
+      { id: 'deepseek-reasoner', displayName: 'DeepSeek Reasoner' },
+    ],
+  },
+  {
     displayName: 'Ollama',
     providerId: 'ollama',
     models: [], // Populated dynamically from local Ollama API
